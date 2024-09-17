@@ -11,10 +11,8 @@ def show_main(request):
         'name': 'Tarissa Mutia Andini',
         'class': 'PBP C',
         'npm': '2306245756',
-        'mood_entries': mood_entries
+        'mood_entries': mood_entries,
     }
-
-    return render(request, "main.html", context)
 
     return render(request, "main.html", context)
 
