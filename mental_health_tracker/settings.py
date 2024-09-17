@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)@dh4h^u@m_jx0=3^hi6i0ycjbut9897-&h_&j!rqm5y0b57_3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "tarissa-mutia-mentalhealthtracker.pbp.cs.ui.ac.id"]
 
